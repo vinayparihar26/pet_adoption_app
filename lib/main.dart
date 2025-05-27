@@ -5,7 +5,7 @@ import 'package:pet_adoption_app/home_screen.dart';
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
-  await Hive.openBox("petBox");
+  await Hive.openBox("petsBox");
   runApp(MyApp());
 }
 
